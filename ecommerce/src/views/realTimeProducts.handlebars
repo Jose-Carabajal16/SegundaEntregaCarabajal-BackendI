@@ -1,0 +1,21 @@
+<h1>Afrodita-Ecommerce</h1>
+    <hr>
+    <h2>Lista de Productos</h2>
+    <ul id="product-list">
+        {{#each payload}}
+            <li>{{this.title}} - ${{this.price}}
+                <button onclick="deleteProduct('{{this.id}}')">Eliminar</button>
+            </li>
+        {{/each}}
+    </ul>
+
+    <h2>Añadir nuevo producto</h2>
+    <form id="add-product-form" onsubmit="addProduct(event)">
+        <input type="text" id="title" placeholder="Título" required>
+        <input type="number" id="price" placeholder="Precio" required>
+        <button type="submit">Añadir Producto</button>
+    </form>
+
+ <script src="/socket.io/socket.io.js"></script>
+
+ <script src="/js/index.js"></script>

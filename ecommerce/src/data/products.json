@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "Pulsera de Cuero",
+    "description": "Pulsera de cuero negro con detalles en acero inoxidable, perfecta para un look casual y moderno",
+    "price": 6000,
+    "thumbnail": "anillo_cuero.jpg",
+    "code": "CO10",
+    "stock": 20,
+    "category": "Pulsera",
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "Collar de Plata",
+    "description": "Collar de plata esterlina",
+    "price": 200,
+    "thumbnail": "collar_plata.jpg",
+    "code": "C001",
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "title": "Pulsera de Perlas",
+    "description": "Pulsera de perlas naturales",
+    "price": 500,
+    "thumbnail": "pulsera_perlas.jpg",
+    "code": "P001",
+    "stock": 8
+  },
+  {
+    "id": 4,
+    "title": "Reloj de Lujo",
+    "description": "Reloj de lujo con correa de cuero",
+    "price": 2500,
+    "thumbnail": "reloj_lujo.jpg",
+    "code": "R001",
+    "stock": 5
+  },
+  {
+    "id": 5,
+    "title": "Aros de oro colgante Afrodita",
+    "description": "Aros colgantes bañados en oro con perlas gigantes",
+    "price": 2500,
+    "thumbnail": "aro_afrodita.jpg",
+    "code": "X001",
+    "stock": 5
+  },
+  {
+    "id": 6,
+    "title": "Anillo de Plata",
+    "price": "1800"
+  }
+]
